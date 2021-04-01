@@ -1,0 +1,21 @@
+* {
+    font-family: monospace;
+}
+
+h1 {
+    color: green;
+    letter-spacing: 5mm;
+    font-family: sans-serif;
+}
+
+h2 {
+    color: blue;
+}
+
+h3 { 
+    color: red;
+}
+
+p { 
+    text-indent: 10%; 
+}

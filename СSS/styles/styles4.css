@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: Bisque;
+    margin: 0;
+    
+}
+#first {
+    width:200px; 
+    height: 140px;
+    float: left;
+}
+
+#two {
+    width:200px; 
+    height:140px;
+    float: right;
+}
+.main {
+    width: 960px;
+    background-color: RosyBrown;
+}
+
+h1 {
+    width:100%;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.kotTitle{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 3px;
+    color:Blue;
+}
+
+.kotwice{
+    text-decoration: none;
+    text-align: center;
+    width:150px;
+    display: block;
+    border: 1px solid black;
+    margin: 10px;
+    background-color: DodgerBlue;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 10px;
+}
+.kotwice:hover{
+    color: white;
+    background-color: blue;
+}
+
+.mainA{
+    
+    display: flex;
+    justify-content: center;
+    
+}
+
+.menu ul {
+    position: fixed;
+    float:right;
+    right: 2.5%;
+    
+}
+
+.menu ul a{
+    text-decoration: none;
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 10px;
+    color: white;
+    background-color: #28a745;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 2px;
+
+}
+
+.menu ul a:hover{
+    background-color: #28f745;
+    color: black;
+    cursor: default;
+}
+
+.menu ul{
+    list-style-type: none;
+    padding: 0;
+    
+}
+
+p::first-letter{
+    color: Blue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+}
+.menu ul .drop{
+    display: none;
+}
+@media only screen and (max-width: 800px) {
+        .menu ul .drop{
+            display: block;
+            
+        }
+        .menu ul .dropmenu{
+            display: none;
+        }
+        
+        .menu ul:hover .dropmenu{
+            display: block;
+        }
+        .menu ul:hover .drop{
+            background-color: grey;
+        }
+        .menu ul:hover .drop:hover{
+            background-color: grey;
+            color: white;
+        }
+        
+  }

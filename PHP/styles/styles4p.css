@@ -1,0 +1,19 @@
+.menu, .mainA, .kotTitle{
+    display: none;
+}
+
+#first {
+    width:200px; 
+    height: 140px;
+    
+}
+
+#two {
+    width:200px; 
+    height:150px;
+    
+}
+
+img{
+    filter: grayscale(100%);
+}

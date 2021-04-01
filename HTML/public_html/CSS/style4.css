@@ -1,0 +1,78 @@
+.num {
+    border: 2px solid black;
+    text-decoration: none;
+}
+
+.m {
+    border: 2px solid black;
+    text-decoration: none;
+    display: block;
+    width:200px;
+    padding: 3px;
+    text-align: center;
+    background-color: blue;
+    color: white;
+}
+#one { 
+    width:200px; 
+    height: 140px;
+    /*position: ;*/
+}
+
+
+#two {
+    width:200px; 
+    height: 140px;
+}
+
+#fix { 
+    /*position: fixed;*/
+    
+}
+
+h1 {
+    width: 100%;
+}
+
+#nonFixed{
+    max-width: 960px;
+    background-color: red;
+}
+
+p::first-letter {
+    color: Blue;
+    font-size: 50px;
+
+}
+
+a:hover {
+    background-color: black;
+    cursor: default;
+    color:white;
+    
+}
+
+#fix { 
+    position: fixed;
+    right: 0;
+    list-style-type: none;
+    
+}
+
+#dif{
+    display: none;
+}
+
+@media only screen and (max-width: 800px) {
+    #dif{
+        display: block;
+    }
+    .simp{
+        display: none;
+    }
+    
+    #fix:hover .simp{
+        display:block;
+    }
+    
+  }
